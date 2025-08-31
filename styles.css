@@ -1,0 +1,126 @@
+.mainspace {
+    position: absolute;
+    margin: 0;
+    border-radius: 25px;
+    background-color:blanchedalmond;
+    aspect-ratio: 1/1;
+    width: 100%;
+    max-width: 500px;
+}
+
+.losssquare {
+    position: absolute;
+    top : 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 1s ease;
+    border-radius: 25px;
+    background-color:rgba(255, 250, 240, 0.65);
+    aspect-ratio: 1/1;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    align-content: center;
+}
+
+.container {
+    position: relative;
+    margin: auto;
+    border-radius: 25px;
+    background-color:rgba(0, 0, 0, 0);
+    aspect-ratio: 1/1;
+    width: 90vw;
+    max-width: 500px;    
+}
+.gamespace {
+    position: relative;
+    margin: 0;
+    border-radius: 25px;
+    background-color:rgba(153, 205, 50, 0);
+    aspect-ratio: 1/1;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+.bar {
+    position: relative;
+    display: flex;
+    gap: 4%;
+    padding-top: 4%;
+    padding-left: 4%;
+    height: 20%;
+    width: 100%;
+}
+.emptysquare {
+    position: relative;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.258);
+    aspect-ratio: 1/1;
+    width: 20%;
+    max-width: 100px;
+}
+
+.blanksquare {
+    position: absolute;
+    text-align: center;
+    align-content: center;
+    overflow: hidden;
+    transition: top 50ms ease, left 50ms ease, opacity 25ms ease;
+    background-color: gray;
+    opacity: 0;
+    border-radius: 10px;
+    aspect-ratio: 1/1;
+    width: 20%;
+    height: 20%;
+    max-width: 100px;
+}
+
+.blockfont {
+    color: rgb(245, 245, 245);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+
+.headfont {
+    text-align: center;
+    color: rgb(99, 99, 99);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+.losefont {
+    color: rgb(99, 99, 99);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 5vw;
+}
+
+.restartbutton {
+    display: inline-block;
+    
+    margin-top: 2vh;
+    padding: 15px 35px;
+    font-size: 100%;
+    background-color: rgb(255, 235, 205);
+    color: rgb(104, 103, 103);
+    border-radius: 30px;
+    border: none;
+    font-family: 'Verdana', sans-serif;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+
+.restartbutton:hover {
+    background-color: rgb(253, 240, 220); 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.restartbutton:active {
+    background-color: rgb(255, 233, 199); 
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
